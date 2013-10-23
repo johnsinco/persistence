@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gene_pool (1.3.0)
+    httparty (0.12.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1-java)
+    multi_xml (0.5.5)
+    persistent_http (1.0.6)
+      gene_pool (>= 1.3)
+    persistent_httparty (0.1.1)
+      httparty (~> 0.9)
+      persistent_http
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  persistent_httparty
